@@ -1,3 +1,12 @@
+## 测试项目：
+1.官网https://code.quarkus.io/ 下载初始化项目 
+
+2.项目导入idea,因本人使用jdk8所以需要更换quarkus版本至1.4.0以下
+
+3.运行Plugins->quarkus->quarkus:dev启动项目
+
+4.打开地址: https://127.0.0.1:8087 (已更换端口避免重复),可看到项目启动，https://127.0.0.1:8087/hello-resteasy ，可看到测试接口
+
 # quarkus-test project
 
 This project uses Quarkus, the Supersonic Subatomic Java Framework.
@@ -53,11 +62,3 @@ REST is easy peasy with this Hello World RESTEasy resource.
 
 [Related guide section...](https://quarkus.io/guides/getting-started#the-jax-rs-resources)
 
-## 测试项目：
-1.官网https://code.quarkus.io/ 下载初始化项目 
-
-2.项目导入idea,因本人使用jdk8所以需要更换quarkus版本至1.4.0以下
-
-3.运行Plugins->quarkus->quarkus:dev启动项目
-
-4.打开地址: https://127.0.0.1:8087 (已更换端口避免重复),可看到项目启动，https://127.0.0.1:8087/hello-resteasy ，可看到测试接口
